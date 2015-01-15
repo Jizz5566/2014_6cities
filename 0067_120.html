@@ -1,0 +1,421 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CCC</title>
+    <meta charset="UTF-8">
+    <style>
+    #map-canvas {
+        width: auto;
+        height: 600px;
+    }
+    .layer-wizard-search-label {
+        font-family: sans-serif
+    }
+    #googft-legend {
+        background-color: #fff;
+        border: 1px solid #000;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        margin: 5px;
+        padding: 10px 10px 8px;
+    }
+    #googft-legend p {
+        font-weight: bold;
+        margin-top: 0;
+    }
+    #googft-legend div {
+        margin-bottom: 5px;
+    }
+    .googft-legend-swatch {
+        border: 1px solid;
+        float: left;
+        height: 12px;
+        margin-right: 8px;
+        width: 20px;
+    }
+    .googft-legend-range {
+        margin-left: 0;
+    }
+    .googft-dot-icon {
+        margin-right: 8px;
+    }
+    .googft-paddle-icon {
+        height: 24px;
+        left: -8px;
+        margin-right: -8px;
+        position: relative;
+        vertical-align: middle;
+        width: 24px;
+    }
+    .googft-legend-source {
+        margin-bottom: 0;
+        margin-top: 8px;
+    }
+    .googft-legend-source a {
+        color: #666;
+        font-size: 11px;
+    }
+    </style>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript">
+    var map;
+    var layer_1;
+    var layer_0;
+    var infowindow;
+
+    function initialize() {
+        map = new google.maps.Map(document.getElementById('map-canvas'), {
+            center: new google.maps.LatLng(25.04131239554957, 121.63237334179689),
+            zoom: 12
+        });
+        var style = [{
+            featureType: 'road.local',
+            elementType: 'all',
+            stylers: [{
+                visibility: 'off'
+            }]
+        }, {
+            featureType: 'administrative.country',
+            elementType: 'all',
+            stylers: [{
+                visibility: 'off'
+            }]
+        }, {
+            featureType: 'administrative.province',
+            elementType: 'all',
+            stylers: [{
+                visibility: 'off'
+            }]
+        }];
+        var styledMapType = new google.maps.StyledMapType(style, {
+            map: map,
+            name: 'Styled Map'
+        });
+        map.mapTypes.set('map-style', styledMapType);
+        map.setMapTypeId('map-style');
+        map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document.getElementById('googft-legend-open'));
+        map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document.getElementById('googft-legend'));
+        
+        layer_1 = new google.maps.FusionTablesLayer({
+            query: {
+                select: "col24>>1",
+                from: "1OfVUo8dqelx_HywAz1b2SjKVYf-mZ-KRYMblnPDC"
+            },
+            map: map,
+            suppressInfoWindows: true,
+            styleId: 3,
+            templateId: 5
+        });
+        google.maps.event.addDomListener(document.getElementById('search-string_0'),
+            'change',
+            function() {
+                if (infowindow) infowindow.close();
+                codeAddress();
+                changeMap_0();
+                layer_1.setMap(map);
+                //layer_0.setMap(map);
+            });
+        google.maps.event.addListener(layer_1, 'click', function(e) {
+            var villige = e.row['Villige'].value;
+            var nodeCol = document.createElement('div');
+            if (infowindow) infowindow.close();
+            else infowindow = new google.maps.InfoWindow();
+            infowindow.setContent('<div class="tabs">' +
+                '<ul>' +
+                '<h3>臺北市長選舉支持率排名：' + e.row['Rank'].value + '</h3>' +
+                '</ul>' +
+                '<div id="tab-2" style="overflow:hidden;">' + //firts tab content 
+                '<h3><b>' + e.row['Villige'].value + '</b></h3>' +
+                '<b align="left">1998-2010支持率標準差：' + e.row['std1998-2010'].value + '</b>' +
+                '</br>' +
+                '<iframe frameborder="no" src="https://www.google.com/fusiontables/embedviz?containerId=googft-gviz-canvas&q=select+col0%3E%3E0%2C+col7%3E%3E0%2C+col8%3E%3E0%2C+col9%3E%3E0%2C+col10%3E%3E0%2C+col11%3E%3E0%2C+col12%3E%3E0+from+1OfVUo8dqelx_HywAz1b2SjKVYf-mZ-KRYMblnPDC+%20WHERE%20Villige=%27' +
+                e.row['Villige'].value +
+                '%27+order+by+col7%3E%3E0+asc+limit+10&viz=GVIZ&t=COLUMN&uiversion=2&gco_forceIFrame=true&gco_hasLabelsColumn=true&gco_vAxes=%5B%7B%22title%22%3A%22%E6%94%AF%E6%8C%81%E7%8E%87%22%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22useFormatFromData%22%3Afalse%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22formatOptions%22%3A%7B%22source%22%3A%22inline%22%2C+%22suffix%22%3A%22%25%22%2C+%22prefix%22%3A%22%22%2C+%22scaleFactor%22%3A%220.01%22%7D%2C+%22format%22%3A%220.%23%23%22%7D%2C%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D%5D&gco_useFirstColumnAsDomain=true&gco_isStacked=false&gco_booleanRole=certainty&gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22viewWindow%22%3Anull%2C+%22viewWindowMode%22%3Anull%7D&gco_legend=none&gco_title=&gco_theme=maximized&gco_tooltip=%7B%22isHtml%22%3Atrue%7D&gco_series=%7B%220%22%3A%7B%22errorBars%22%3A%7B%22errorType%22%3A%22percent%22%7D%7D%2C+%221%22%3A%7B%22errorBars%22%3A%7B%22errorType%22%3A%22percent%22%7D%7D%2C+%222%22%3A%7B%22errorBars%22%3A%7B%22errorType%22%3A%22percent%22%7D%7D%2C+%223%22%3A%7B%22errorBars%22%3A%7B%22errorType%22%3A%22percent%22%7D%7D%2C+%224%22%3A%7B%22errorBars%22%3A%7B%22errorType%22%3A%22percent%22%7D%7D%2C+%225%22%3A%7B%22targetAxisIndex%22%3A0%2C+%22color%22%3A%22none%22%2C+%22errorBars%22%3A%7B%22errorType%22%3A%22none%22%7D%7D%7D&tmplt=6&width=220&height=140" width="270" height="150" scrolling="no" />' +
+                '</div>');
+            infowindow.setPosition(e.latLng);
+            infowindow.open(map);
+            //$(".tabs").tabs();  
+        });
+        infoWindow = new google.maps.InfoWindow();
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    var filter;
+    function drawVisualization() {
+        var query = new google.visualization.Query('http://www.google.com/fusiontables/gvizdata?tq=' + encodeURIComponent("SELECT 'col0','col7','col8','col9','col10','col11','col13' FROM 1RPsSmR-TJ4eu7w3G919MLkuMTFTXna-cNq2b21ko"));
+
+        //query.setQuery('SELECT A, B, C, D');
+
+        query.send(function(response) {
+            if (response.isError()) {
+                alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+                return;
+            }
+            var data = response.getDataTable();
+
+            // create a NumberFilter control
+            var filter = new google.visualization.ControlWrapper({
+                controlType: 'NumberRangeFilter',
+                containerId: 'control_div',
+                options: {
+                    filterColumnIndex: 6
+                }
+            });
+
+            // create a Table visualization
+            var table = new google.visualization.ChartWrapper({
+                chartType: 'Table',
+                containerId: 'table_div',
+                options: {
+                    height: 400,
+                    width: 600
+                }
+            });
+
+            // Create the dashboard.
+            var dashboard = new google.visualization.Dashboard(document.getElementById('dashboard')).
+                // Configure the string filter to affect the table contents
+            bind([filter], [table]).
+                // Draw the dashboard
+            draw(data);
+        });
+        function updateCharts() {
+            var values = filter.getState().selectedValues;
+            var filterView = filter.getDataTable();
+            var rows = [];
+            var tmp;
+            for (var i = 0; i < values.length; i++) {
+                tmp = filterView.getFilteredRows([{
+                    column: 0,
+                    value: values[i]
+                }]);
+                for (var j = 0; j < tmp.length; j++) {
+                    rows.push(tmp[j]);
+                }
+            }
+            var view = new google.visualization.DataView(filterView);
+            //view.hideRows(rows);
+            table.setDataTable(view);
+            table.draw();
+
+            var mapU = new google.visualization.Map(document.getElementById('map_div'));
+            var option = { zoom: 10, center: rows[0] };
+            mapU.draw(filterView, option);
+        }
+       google.visualization.events.addListener(filter, 'statechange', updateCharts);
+            updateCharts();
+            filter.draw();
+            mapU.setMap(map);
+       }
+
+    google.load('visualization', '1', {
+        'packages': ['controls','map']
+    });
+    google.setOnLoadCallback(drawVisualization);
+
+
+    function changeMap_0() {
+        var whereClause = null;
+        var searchString = document.getElementById('search-string_0').value.replace(/'/g, "\\'");
+        if (searchString != '--Select--') {
+            whereClause = "'Villige' = '" + searchString + "'";
+        }
+
+        layer_1.setOptions({
+            query: {
+                select: "col24>>1",
+                from: "1OfVUo8dqelx_HywAz1b2SjKVYf-mZ-KRYMblnPDC",
+                where: whereClause
+            }
+        });
+    }
+
+    function codeAddress() {
+        var geocoder = new google.maps.Geocoder();
+        var address = document.getElementById('search-string_0').value;
+        geocoder.geocode({
+            'address': address
+        }, function(results, status) {
+            if (status == google.maps.GeocoderStatus.OK) {
+                map.setCenter(results[0].geometry.location);
+            } else {
+                alert('Geocode was not successful for the following reason: ' + status);
+            }
+        });
+    }
+
+    function clearList() {
+        if (infowindow) infowindow.close();
+        document.getElementById("search-string_0").value = "--Select--";
+        changeMap_0();
+    }
+    </script>
+</head>
+
+<body>
+    <div style="margin-top: 10px;">
+        <label class="layer-wizard-search-label">
+            支持率前1-120名：
+            <select id="search-string_0" onchange="changeMap_0(this.value);">
+                <option value="--Select--">--Select--</option>
+                <option value="松山區慈祐里">(1)松山區慈祐里</option>
+                <option value="中山區行政里">(2)中山區行政里</option>
+                <option value="士林區福德里">(3)士林區福德里</option>
+                <option value="大同區揚雅里">(4)大同區揚雅里</option>
+                <option value="文山區老泉里">(5)文山區老泉里</option>
+                <option value="南港區南港里">(6)南港區南港里</option>
+                <option value="士林區葫東里">(7)士林區葫東里</option>
+                <option value="士林區前港里">(8)士林區前港里</option>
+                <option value="內湖區週美里">(9)內湖區週美里</option>
+                <option value="士林區平等里">(10)士林區平等里</option>
+                <option value="士林區富洲里">(11)士林區富洲里</option>
+                <option value="士林區社新里">(12)士林區社新里</option>
+                <option value="北投區清江里">(13)北投區清江里</option>
+                <option value="萬華區富福里">(14)萬華區富福里</option>
+                <option value="南港區東新里">(15)南港區東新里</option>
+                <option value="內湖區葫洲里">(16)內湖區葫洲里</option>
+                <option value="大同區建功里">(17)大同區建功里</option>
+                <option value="士林區溪山里">(18)士林區溪山里</option>
+                <option value="萬華區頂碩里">(19)萬華區頂碩里</option>
+                <option value="萬華區綠堤里">(20)萬華區綠堤里</option>
+                <option value="大同區重慶里">(21)大同區重慶里</option>
+                <option value="文山區景行里">(22)文山區景行里</option>
+                <option value="信義區永吉里">(23)信義區永吉里</option>
+                <option value="內湖區五分里">(24)內湖區五分里</option>
+                <option value="士林區承德里">(25)士林區承德里</option>
+                <option value="士林區福順里">(26)士林區福順里</option>
+                <option value="南港區百福里">(27)南港區百福里</option>
+                <option value="南港區西新里">(28)南港區西新里</option>
+                <option value="北投區一德里">(29)北投區一德里</option>
+                <option value="內湖區湖興里">(30)內湖區湖興里</option>
+                <option value="北投區大同里">(31)北投區大同里</option>
+                <option value="北投區關渡里">(32)北投區關渡里</option>
+                <option value="士林區社子里">(33)士林區社子里</option>
+                <option value="北投區中央里">(34)北投區中央里</option>
+                <option value="士林區福安里">(35)士林區福安里</option>
+                <option value="信義區五常里">(36)信義區五常里</option>
+                <option value="士林區百齡里">(37)士林區百齡里</option>
+                <option value="北投區洲美里">(38)北投區洲美里</option>
+                <option value="內湖區行善里">(39)內湖區行善里</option>
+                <option value="士林區富光里">(40)士林區富光里</option>
+                <option value="大同區永樂里">(41)大同區永樂里</option>
+                <option value="萬華區孝德里">(42)萬華區孝德里</option>
+                <option value="萬華區全德里">(43)萬華區全德里</option>
+                <option value="萬華區和平里">(44)萬華區和平里</option>
+                <option value="南港區鴻福里">(45)南港區鴻福里</option>
+                <option value="內湖區港都里">(46)內湖區港都里</option>
+                <option value="北投區桃源里">(47)北投區桃源里</option>
+                <option value="中山區朱崙里">(48)中山區朱崙里</option>
+                <option value="南港區新富里">(49)南港區新富里</option>
+                <option value="大同區蓬萊里">(50)大同區蓬萊里</option>
+                <option value="信義區大道里">(51)信義區大道里</option>
+                <option value="南港區舊莊里">(52)南港區舊莊里</option>
+                <option value="內湖區樂康里">(53)內湖區樂康里</option>
+                <option value="中正區廈安里">(54)中正區廈安里</option>
+                <option value="中山區行仁里">(55)中山區行仁里</option>
+                <option value="大同區星明里">(56)大同區星明里</option>
+                <option value="大同區雙連里">(57)大同區雙連里</option>
+                <option value="南港區合成里">(58)南港區合成里</option>
+                <option value="萬華區和德里">(59)萬華區和德里</option>
+                <option value="士林區蘭雅里">(60)士林區蘭雅里</option>
+                <option value="萬華區榮德里">(61)萬華區榮德里</option>
+                <option value="北投區尊賢里">(62)北投區尊賢里</option>
+                <option value="士林區福中里">(63)士林區福中里</option>
+                <option value="萬華區日善里">(64)萬華區日善里</option>
+                <option value="北投區石牌里">(65)北投區石牌里</option>
+                <option value="信義區雅祥里">(66)信義區雅祥里</option>
+                <option value="大同區老師里">(67)大同區老師里</option>
+                <option value="中山區江寧里">(68)中山區江寧里</option>
+                <option value="北投區文林里">(69)北投區文林里</option>
+                <option value="內湖區內湖里">(70)內湖區內湖里</option>
+                <option value="北投區立農里">(71)北投區立農里</option>
+                <option value="萬華區華中里">(72)萬華區華中里</option>
+                <option value="大同區南芳里">(73)大同區南芳里</option>
+                <option value="南港區中南里">(74)南港區中南里</option>
+                <option value="信義區四育里">(75)信義區四育里</option>
+                <option value="中正區文祥里">(76)中正區文祥里</option>
+                <option value="大同區鄰江里">(77)大同區鄰江里</option>
+                <option value="士林區永倫里">(78)士林區永倫里</option>
+                <option value="中山區新喜里">(79)中山區新喜里</option>
+                <option value="大安區龍安里">(80)大安區龍安里</option>
+                <option value="南港區中研里">(81)南港區中研里</option>
+                <option value="大同區隆和里">(82)大同區隆和里</option>
+                <option value="萬華區銘德里">(83)萬華區銘德里</option>
+                <option value="萬華區錦德里">(84)萬華區錦德里</option>
+                <option value="北投區奇岩里">(85)北投區奇岩里</option>
+                <option value="南港區三重里">(86)南港區三重里</option>
+                <option value="信義區五全里">(87)信義區五全里</option>
+                <option value="士林區德行里">(88)士林區德行里</option>
+                <option value="大同區保安里">(89)大同區保安里</option>
+                <option value="文山區指南里">(90)文山區指南里</option>
+                <option value="士林區社園里">(91)士林區社園里</option>
+                <option value="北投區中和里">(92)北投區中和里</option>
+                <option value="北投區裕民里">(93)北投區裕民里</option>
+                <option value="士林區後港里">(94)士林區後港里</option>
+                <option value="大同區朝陽里">(95)大同區朝陽里</option>
+                <option value="萬華區興德里">(96)萬華區興德里</option>
+                <option value="內湖區東湖里">(97)內湖區東湖里</option>
+                <option value="信義區永春里">(98)信義區永春里</option>
+                <option value="信義區中坡里">(99)信義區中坡里</option>
+                <option value="中山區下埤里">(100)中山區下埤里</option>
+                <option value="中山區江山里">(101)中山區江山里</option>
+                <option value="中正區永昌里">(102)中正區永昌里</option>
+                <option value="大同區光能里">(103)大同區光能里</option>
+                <option value="松山區松基里">(104)松山區松基里</option>
+                <option value="北投區八仙里">(105)北投區八仙里</option>
+                <option value="北投區中庸里">(106)北投區中庸里</option>
+                <option value="大同區斯文里">(107)大同區斯文里</option>
+                <option value="萬華區忠德里">(108)萬華區忠德里</option>
+                <option value="中山區集英里">(109)中山區集英里</option>
+                <option value="萬華區菜園里">(110)萬華區菜園里</option>
+                <option value="信義區松友里">(111)信義區松友里</option>
+                <option value="萬華區仁德里">(112)萬華區仁德里</option>
+                <option value="北投區立賢里">(113)北投區立賢里</option>
+                <option value="萬華區柳鄉里">(114)萬華區柳鄉里</option>
+                <option value="萬華區壽德里">(115)萬華區壽德里</option>
+                <option value="信義區四維里">(116)信義區四維里</option>
+                <option value="松山區中正里">(117)松山區中正里</option>
+                <option value="松山區美仁里">(118)松山區美仁里</option>
+                <option value="信義區黎忠里">(119)信義區黎忠里</option>
+                <option value="北投區湖山里">(120)北投區湖山里</option>
+            </select>
+        </label>
+        <button type="button" id="button" onclick="clearList();">Clear</button>
+        <div id="dashboard">
+            <div id="control_div"></div>
+            <div id="table_div"></div>
+            <div id="map_div" style="width:300px;height:200px;"></div>
+        </div>
+        <div id="map-canvas"></div>
+    </div>
+    <div id="googft-mapCanvas"></div>
+    <input id="googft-legend-open" style="display:none" type="button" value="Legend" />
+    <div id="googft-legend">
+        <p id="googft-legend-title">1998-2010支持率排名</p>
+        <div>
+            <span class="googft-legend-swatch" style="background-color: #ffffff"></span>
+            <span class="googft-legend-range">0.06 to 0.068</span>
+        </div>
+        <div>
+            <span class="googft-legend-swatch" style="background-color: #f6b26b"></span>
+            <span class="googft-legend-range">0.068 to 0.07</span>
+        </div>
+        <div>
+            <span class="googft-legend-swatch" style="background-color: #6aa84f"></span>
+            <span class="googft-legend-range">0.07 to 0.08</span>
+        </div>
+        <div>
+            <span class="googft-legend-swatch" style="background-color: #134f5c"></span>
+            <span class="googft-legend-range">0.08 to 0.09</span>
+        </div>
+        <div>
+            <span class="googft-legend-swatch" style="background-color: #00ff00"></span>
+            <span class="googft-legend-range">0.09 to 0.1</span>
+        </div>
+        <input id="googft-legend-close" style="display:none" type="button" value="Hide"/>
+    </div>
+</body>
+
+</html>
