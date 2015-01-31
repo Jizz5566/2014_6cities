@@ -22,8 +22,8 @@
 
     function initialize() {
         map = new google.maps.Map(document.getElementById('map-canvas'), {
-            center: new google.maps.LatLng(24.95709976981357, 121.50977393610034),
-            zoom: 10,
+            center: new google.maps.LatLng(23.873613, 120.980347),
+            zoom: 8,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         });
         //六都各里地圖
@@ -47,6 +47,7 @@
             styleId: 2,
             templateId: 2
         });
+        //六都縣市圖層
         layer_2 = new google.maps.FusionTablesLayer({
             query: {
                 select: "col5",
