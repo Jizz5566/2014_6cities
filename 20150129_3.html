@@ -11,17 +11,11 @@ License can be found here: http://code.google.com/apis/ajaxsearch/faq/#license
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <title>Fusion Tables Layer Mouse Over</title>
     <style>
-    body {
-        font-family: Arial, sans-serif;
-        font-size: 12px;
-    }
-    #map_canvas {
-        height: 600px;
-        width: auto;
-    }
-    #info{
-    	width: 100px;
-    }
+    html, body, #map_canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
     </style>
     <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false">
     </script>
@@ -45,7 +39,6 @@ License can be found here: http://code.google.com/apis/ajaxsearch/faq/#license
     var tolerance = 1; // tolerance in pixel around mouse. default is 6. want a bigger number for point maps
 
     function loadMap() {
-
         layer = new google.maps.FusionTablesLayer({
             query: {
                 select: geometryColumn, // pulls geometry column name, may be Address for a points map
