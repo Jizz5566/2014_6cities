@@ -1,0 +1,2549 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5541264,25.0552958 ]
+    },
+    "properties": {
+    "FIELD1":"223",
+    "FIELD2":"6300100",
+    "FIELD3":"松山區",
+    "FIELD4":"63",
+    "FIELD5":"台北市",
+    "FIELD6":"223",
+    "FIELD7":"台北市松山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5769572,25.0287024 ]
+    },
+    "properties": {
+    "FIELD1":"224",
+    "FIELD2":"6300200",
+    "FIELD3":"信義區",
+    "FIELD4":"63",
+    "FIELD5":"台北市",
+    "FIELD6":"224",
+    "FIELD7":"台北市信義區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5427093,25.0261583 ]
+    },
+    "properties": {
+    "FIELD1":"225",
+    "FIELD2":"6300300",
+    "FIELD3":"大安區",
+    "FIELD4":"63",
+    "FIELD5":"台北市",
+    "FIELD6":"225",
+    "FIELD7":"台北市大安區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5427093,25.0792018 ]
+    },
+    "properties": {
+    "FIELD1":"226",
+    "FIELD2":"6300400",
+    "FIELD3":"中山區",
+    "FIELD4":"63",
+    "FIELD5":"台北市",
+    "FIELD6":"226",
+    "FIELD7":"台北市中山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5198716,25.0421407 ]
+    },
+    "properties": {
+    "FIELD1":"227",
+    "FIELD2":"6300500",
+    "FIELD3":"中正區",
+    "FIELD4":"63",
+    "FIELD5":"台北市",
+    "FIELD6":"227",
+    "FIELD7":"台北市中正區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5113064,25.0627243 ]
+    },
+    "properties": {
+    "FIELD1":"228",
+    "FIELD2":"6300600",
+    "FIELD3":"大同區",
+    "FIELD4":"63",
+    "FIELD5":"台北市",
+    "FIELD6":"228",
+    "FIELD7":"台北市大同區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4970294,25.0262857 ]
+    },
+    "properties": {
+    "FIELD1":"229",
+    "FIELD2":"6300700",
+    "FIELD3":"萬華區",
+    "FIELD4":"63",
+    "FIELD5":"台北市",
+    "FIELD6":"229",
+    "FIELD7":"台北市萬華區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.57125,24.9929212 ]
+    },
+    "properties": {
+    "FIELD1":"230",
+    "FIELD2":"6300800",
+    "FIELD3":"文山區",
+    "FIELD4":"63",
+    "FIELD5":"台北市",
+    "FIELD6":"230",
+    "FIELD7":"台北市文山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6111949,25.0312347 ]
+    },
+    "properties": {
+    "FIELD1":"231",
+    "FIELD2":"6300900",
+    "FIELD3":"南港區",
+    "FIELD4":"63",
+    "FIELD5":"台北市",
+    "FIELD6":"231",
+    "FIELD7":"台北市南港區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5909027,25.0689422 ]
+    },
+    "properties": {
+    "FIELD1":"232",
+    "FIELD2":"6301000",
+    "FIELD3":"內湖區",
+    "FIELD4":"63",
+    "FIELD5":"台北市",
+    "FIELD6":"232",
+    "FIELD7":"台北市內湖區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5246077,25.0950492 ]
+    },
+    "properties": {
+    "FIELD1":"233",
+    "FIELD2":"6301100",
+    "FIELD3":"士林區",
+    "FIELD4":"63",
+    "FIELD5":"台北市",
+    "FIELD6":"233",
+    "FIELD7":"台北市士林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.515018,25.1151759 ]
+    },
+    "properties": {
+    "FIELD1":"234",
+    "FIELD2":"6301200",
+    "FIELD3":"北投區",
+    "FIELD4":"63",
+    "FIELD5":"台北市",
+    "FIELD6":"234",
+    "FIELD7":"台北市北投區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2830007,22.6224414 ]
+    },
+    "properties": {
+    "FIELD1":"235",
+    "FIELD2":"6400100",
+    "FIELD3":"鹽埕區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"235",
+    "FIELD7":"高雄市鹽埕區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2685799,22.6495866 ]
+    },
+    "properties": {
+    "FIELD1":"236",
+    "FIELD2":"6400200",
+    "FIELD3":"鼓山區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"236",
+    "FIELD7":"高雄市鼓山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2916524,22.6877358 ]
+    },
+    "properties": {
+    "FIELD1":"237",
+    "FIELD2":"6400300",
+    "FIELD3":"左營區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"237",
+    "FIELD7":"高雄市左營區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3031871,22.7175372 ]
+    },
+    "properties": {
+    "FIELD1":"238",
+    "FIELD2":"6400400",
+    "FIELD3":"楠梓區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"238",
+    "FIELD7":"高雄市楠梓區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3262535,22.6483444 ]
+    },
+    "properties": {
+    "FIELD1":"239",
+    "FIELD2":"6400500",
+    "FIELD3":"三民區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"239",
+    "FIELD7":"高雄市三民區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3060706,22.6283893 ]
+    },
+    "properties": {
+    "FIELD1":"240",
+    "FIELD2":"6400600",
+    "FIELD3":"新興區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"240",
+    "FIELD7":"高雄市新興區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2945362,22.6254162 ]
+    },
+    "properties": {
+    "FIELD1":"241",
+    "FIELD2":"6400700",
+    "FIELD3":"前金區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"241",
+    "FIELD7":"高雄市前金區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3262535,22.6268814 ]
+    },
+    "properties": {
+    "FIELD1":"242",
+    "FIELD2":"6400800",
+    "FIELD3":"苓雅區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"242",
+    "FIELD7":"高雄市苓雅區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3147208,22.5970794 ]
+    },
+    "properties": {
+    "FIELD1":"243",
+    "FIELD2":"6400900",
+    "FIELD3":"前鎮區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"243",
+    "FIELD7":"高雄市前鎮區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.306998,22.561674 ]
+    },
+    "properties": {
+    "FIELD1":"244",
+    "FIELD2":"6401000",
+    "FIELD3":"旗津區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"244",
+    "FIELD7":"高雄市旗津區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3608455,22.5553185 ]
+    },
+    "properties": {
+    "FIELD1":"245",
+    "FIELD2":"6401100",
+    "FIELD3":"小港區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"245",
+    "FIELD7":"高雄市小港區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3493158,22.6113591 ]
+    },
+    "properties": {
+    "FIELD1":"246",
+    "FIELD2":"6401200",
+    "FIELD3":"鳳山區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"246",
+    "FIELD7":"高雄市鳳山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4011911,22.4986756 ]
+    },
+    "properties": {
+    "FIELD1":"247",
+    "FIELD2":"6401300",
+    "FIELD3":"林園區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"247",
+    "FIELD7":"高雄市林園區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4011911,22.584481 ]
+    },
+    "properties": {
+    "FIELD1":"248",
+    "FIELD2":"6401400",
+    "FIELD3":"大寮區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"248",
+    "FIELD7":"高雄市大寮區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4242401,22.708371 ]
+    },
+    "properties": {
+    "FIELD1":"249",
+    "FIELD2":"6401500",
+    "FIELD3":"大樹區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"249",
+    "FIELD7":"高雄市大樹區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3608455,22.7377083 ]
+    },
+    "properties": {
+    "FIELD1":"250",
+    "FIELD2":"6401600",
+    "FIELD3":"大社區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"250",
+    "FIELD7":"高雄市大社區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3608455,22.6947932 ]
+    },
+    "properties": {
+    "FIELD1":"251",
+    "FIELD2":"6401700",
+    "FIELD3":"仁武區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"251",
+    "FIELD7":"高雄市仁武區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3723741,22.6602052 ]
+    },
+    "properties": {
+    "FIELD1":"252",
+    "FIELD2":"6401800",
+    "FIELD3":"鳥松區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"252",
+    "FIELD7":"高雄市鳥松區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2858846,22.8016472 ]
+    },
+    "properties": {
+    "FIELD1":"253",
+    "FIELD2":"6401900",
+    "FIELD3":"岡山區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"253",
+    "FIELD7":"高雄市岡山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3089541,22.7539012 ]
+    },
+    "properties": {
+    "FIELD1":"254",
+    "FIELD2":"6402000",
+    "FIELD3":"橋頭區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"254",
+    "FIELD7":"高雄市橋頭區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.378138,22.7823697 ]
+    },
+    "properties": {
+    "FIELD1":"255",
+    "FIELD2":"6402100",
+    "FIELD3":"燕巢區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"255",
+    "FIELD7":"高雄市燕巢區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4011911,22.8633474 ]
+    },
+    "properties": {
+    "FIELD1":"256",
+    "FIELD2":"6402200",
+    "FIELD3":"田寮區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"256",
+    "FIELD7":"高雄市田寮區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3320195,22.8778606 ]
+    },
+    "properties": {
+    "FIELD1":"257",
+    "FIELD2":"6402300",
+    "FIELD3":"阿蓮區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"257",
+    "FIELD7":"高雄市阿蓮區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2628111,22.8494042 ]
+    },
+    "properties": {
+    "FIELD1":"258",
+    "FIELD2":"6402400",
+    "FIELD3":"路竹區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"258",
+    "FIELD7":"高雄市路竹區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2224227,22.8954184 ]
+    },
+    "properties": {
+    "FIELD1":"259",
+    "FIELD2":"6402500",
+    "FIELD3":"湖內區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"259",
+    "FIELD7":"高雄市湖內區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2108809,22.8763476 ]
+    },
+    "properties": {
+    "FIELD1":"260",
+    "FIELD2":"6402600",
+    "FIELD3":"茄萣區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"260",
+    "FIELD7":"高雄市茄萣區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2397336,22.8112691 ]
+    },
+    "properties": {
+    "FIELD1":"261",
+    "FIELD2":"6402700",
+    "FIELD3":"永安區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"261",
+    "FIELD7":"高雄市永安區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2455033,22.7832231 ]
+    },
+    "properties": {
+    "FIELD1":"262",
+    "FIELD2":"6402800",
+    "FIELD3":"彌陀區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"262",
+    "FIELD7":"高雄市彌陀區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2570421,22.7486104 ]
+    },
+    "properties": {
+    "FIELD1":"263",
+    "FIELD2":"6402900",
+    "FIELD3":"梓官區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"263",
+    "FIELD7":"高雄市梓官區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4703258,22.8702492 ]
+    },
+    "properties": {
+    "FIELD1":"264",
+    "FIELD2":"6403000",
+    "FIELD3":"旗山區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"264",
+    "FIELD7":"高雄市旗山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.5509358,22.885385 ]
+    },
+    "properties": {
+    "FIELD1":"265",
+    "FIELD2":"6403100",
+    "FIELD3":"美濃區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"265",
+    "FIELD7":"高雄市美濃區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6545022,23.0026195 ]
+    },
+    "properties": {
+    "FIELD1":"266",
+    "FIELD2":"6403200",
+    "FIELD3":"六龜區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"266",
+    "FIELD7":"高雄市六龜區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6314948,23.114592 ]
+    },
+    "properties": {
+    "FIELD1":"267",
+    "FIELD2":"6403300",
+    "FIELD3":"甲仙區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"267",
+    "FIELD7":"高雄市甲仙區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.5624474,23.0007902 ]
+    },
+    "properties": {
+    "FIELD1":"268",
+    "FIELD2":"6403400",
+    "FIELD3":"杉林區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"268",
+    "FIELD7":"高雄市杉林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4703258,22.9560087 ]
+    },
+    "properties": {
+    "FIELD1":"269",
+    "FIELD2":"6403500",
+    "FIELD3":"內門區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"269",
+    "FIELD7":"高雄市內門區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.734995,22.9319405 ]
+    },
+    "properties": {
+    "FIELD1":"270",
+    "FIELD2":"6403600",
+    "FIELD3":"茂林區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"270",
+    "FIELD7":"高雄市茂林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.8498944,23.2280755 ]
+    },
+    "properties": {
+    "FIELD1":"271",
+    "FIELD2":"6403700",
+    "FIELD3":"桃源區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"271",
+    "FIELD7":"高雄市桃源區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.734995,23.2742978 ]
+    },
+    "properties": {
+    "FIELD1":"272",
+    "FIELD2":"6403800",
+    "FIELD3":"那瑪夏區",
+    "FIELD4":"64",
+    "FIELD5":"高雄市",
+    "FIELD6":"272",
+    "FIELD7":"高雄市那瑪夏區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4618415,25.0114095 ]
+    },
+    "properties": {
+    "FIELD1":"273",
+    "FIELD2":"6500100",
+    "FIELD3":"板橋區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"273",
+    "FIELD7":"新北市板橋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4867114,25.0614534 ]
+    },
+    "properties": {
+    "FIELD1":"274",
+    "FIELD2":"6500200",
+    "FIELD3":"三重區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"274",
+    "FIELD7":"新北市三重區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4853103,24.9962178 ]
+    },
+    "properties": {
+    "FIELD1":"275",
+    "FIELD2":"6500300",
+    "FIELD3":"中和區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"275",
+    "FIELD7":"新北市中和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5145353,25.0103251 ]
+    },
+    "properties": {
+    "FIELD1":"276",
+    "FIELD2":"6500400",
+    "FIELD3":"永和區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"276",
+    "FIELD7":"新北市永和區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4178347,25.0265985 ]
+    },
+    "properties": {
+    "FIELD1":"277",
+    "FIELD2":"6500500",
+    "FIELD3":"新莊區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"277",
+    "FIELD7":"新北市新莊區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5394822,24.978282 ]
+    },
+    "properties": {
+    "FIELD1":"278",
+    "FIELD2":"6500600",
+    "FIELD3":"新店區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"278",
+    "FIELD7":"新北市新店區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4198606,24.9815605 ]
+    },
+    "properties": {
+    "FIELD1":"279",
+    "FIELD2":"6500700",
+    "FIELD3":"樹林區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"279",
+    "FIELD7":"新北市樹林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3427262,24.9614967 ]
+    },
+    "properties": {
+    "FIELD1":"280",
+    "FIELD2":"6500800",
+    "FIELD3":"鶯歌區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"280",
+    "FIELD7":"新北市鶯歌區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3744903,24.9358605 ]
+    },
+    "properties": {
+    "FIELD1":"281",
+    "FIELD2":"6500900",
+    "FIELD3":"三峽區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"281",
+    "FIELD7":"新北市三峽區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4433706,25.1719805 ]
+    },
+    "properties": {
+    "FIELD1":"282",
+    "FIELD2":"6501000",
+    "FIELD3":"淡水區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"282",
+    "FIELD7":"新北市淡水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6397184,25.0616059 ]
+    },
+    "properties": {
+    "FIELD1":"283",
+    "FIELD2":"6501100",
+    "FIELD3":"汐止區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"283",
+    "FIELD7":"新北市汐止區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.822098,25.103052 ]
+    },
+    "properties": {
+    "FIELD1":"284",
+    "FIELD2":"6501200",
+    "FIELD3":"瑞芳區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"284",
+    "FIELD7":"新北市瑞芳區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.438034,24.968371 ]
+    },
+    "properties": {
+    "FIELD1":"285",
+    "FIELD2":"6501300",
+    "FIELD3":"土城區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"285",
+    "FIELD7":"新北市土城區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4715241,25.0868908 ]
+    },
+    "properties": {
+    "FIELD1":"286",
+    "FIELD2":"6501400",
+    "FIELD3":"蘆洲區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"286",
+    "FIELD7":"新北市蘆洲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4386586,25.0848317 ]
+    },
+    "properties": {
+    "FIELD1":"287",
+    "FIELD2":"6501500",
+    "FIELD3":"五股區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"287",
+    "FIELD7":"新北市五股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.4327919,25.0581641 ]
+    },
+    "properties": {
+    "FIELD1":"288",
+    "FIELD2":"6501600",
+    "FIELD3":"泰山區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"288",
+    "FIELD7":"新北市泰山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3881378,25.0790108 ]
+    },
+    "properties": {
+    "FIELD1":"289",
+    "FIELD2":"6501700",
+    "FIELD3":"林口區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"289",
+    "FIELD7":"新北市林口區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6169002,25.0033792 ]
+    },
+    "properties": {
+    "FIELD1":"290",
+    "FIELD2":"6501800",
+    "FIELD3":"深坑區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"290",
+    "FIELD7":"新北市深坑區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6452827,25.0098662 ]
+    },
+    "properties": {
+    "FIELD1":"291",
+    "FIELD2":"6501900",
+    "FIELD3":"石碇區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"291",
+    "FIELD7":"新北市石碇區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7107613,24.9350844 ]
+    },
+    "properties": {
+    "FIELD1":"292",
+    "FIELD2":"6502000",
+    "FIELD3":"坪林區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"292",
+    "FIELD7":"新北市坪林區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5024341,25.2593452 ]
+    },
+    "properties": {
+    "FIELD1":"293",
+    "FIELD2":"6502100",
+    "FIELD3":"三芝區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"293",
+    "FIELD7":"新北市三芝區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5671383,25.2908277 ]
+    },
+    "properties": {
+    "FIELD1":"294",
+    "FIELD2":"6502200",
+    "FIELD3":"石門區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"294",
+    "FIELD7":"新北市石門區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3983016,25.1443896 ]
+    },
+    "properties": {
+    "FIELD1":"295",
+    "FIELD2":"6502300",
+    "FIELD3":"八里區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"295",
+    "FIELD7":"新北市八里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.7408654,25.0248314 ]
+    },
+    "properties": {
+    "FIELD1":"296",
+    "FIELD2":"6502400",
+    "FIELD3":"平溪區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"296",
+    "FIELD7":"新北市平溪區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.822098,24.9971842 ]
+    },
+    "properties": {
+    "FIELD1":"297",
+    "FIELD2":"6502500",
+    "FIELD3":"雙溪區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"297",
+    "FIELD7":"新北市雙溪區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.9459786,25.0168762 ]
+    },
+    "properties": {
+    "FIELD1":"298",
+    "FIELD2":"6502600",
+    "FIELD3":"貢寮區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"298",
+    "FIELD7":"新北市貢寮區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.638625,25.22508 ]
+    },
+    "properties": {
+    "FIELD1":"299",
+    "FIELD2":"6502700",
+    "FIELD3":"金山區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"299",
+    "FIELD7":"新北市金山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.6397184,25.1676024 ]
+    },
+    "properties": {
+    "FIELD1":"300",
+    "FIELD2":"6502800",
+    "FIELD3":"萬里區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"300",
+    "FIELD7":"新北市萬里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.5497801,24.8663721 ]
+    },
+    "properties": {
+    "FIELD1":"301",
+    "FIELD2":"6502900",
+    "FIELD3":"烏來區",
+    "FIELD4":"65",
+    "FIELD5":"新北市",
+    "FIELD6":"301",
+    "FIELD7":"新北市烏來區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6818181,24.1402601 ]
+    },
+    "properties": {
+    "FIELD1":"302",
+    "FIELD2":"6600100",
+    "FIELD3":"中區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"302",
+    "FIELD7":"台中市中區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6944233,24.1427702 ]
+    },
+    "properties": {
+    "FIELD1":"303",
+    "FIELD2":"6600200",
+    "FIELD3":"東區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"303",
+    "FIELD7":"台中市東區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6624117,24.1208445 ]
+    },
+    "properties": {
+    "FIELD1":"304",
+    "FIELD2":"6600300",
+    "FIELD3":"南區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"304",
+    "FIELD7":"台中市南區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6631289,24.1430604 ]
+    },
+    "properties": {
+    "FIELD1":"305",
+    "FIELD2":"6600400",
+    "FIELD3":"西區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"305",
+    "FIELD7":"台中市西區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.674583,24.1629451 ]
+    },
+    "properties": {
+    "FIELD1":"306",
+    "FIELD2":"6600500",
+    "FIELD3":"北區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"306",
+    "FIELD7":"台中市北區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6424333,24.1769764 ]
+    },
+    "properties": {
+    "FIELD1":"307",
+    "FIELD2":"6600600",
+    "FIELD3":"西屯區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"307",
+    "FIELD7":"台中市西屯區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6084832,24.1471183 ]
+    },
+    "properties": {
+    "FIELD1":"308",
+    "FIELD2":"6600700",
+    "FIELD3":"南屯區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"308",
+    "FIELD7":"台中市南屯區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6861019,24.1815237 ]
+    },
+    "properties": {
+    "FIELD1":"309",
+    "FIELD2":"6600800",
+    "FIELD3":"北屯區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"309",
+    "FIELD7":"台中市北屯區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.7223572,24.2521156 ]
+    },
+    "properties": {
+    "FIELD1":"310",
+    "FIELD2":"6600900",
+    "FIELD3":"豐原區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"310",
+    "FIELD7":"台中市豐原區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.8272085,24.2599898 ]
+    },
+    "properties": {
+    "FIELD1":"311",
+    "FIELD2":"6601000",
+    "FIELD3":"東勢區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"311",
+    "FIELD7":"台中市東勢區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6487508,24.3788233 ]
+    },
+    "properties": {
+    "FIELD1":"312",
+    "FIELD2":"6601100",
+    "FIELD3":"大甲區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"312",
+    "FIELD7":"台中市大甲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.5854674,24.301983 ]
+    },
+    "properties": {
+    "FIELD1":"313",
+    "FIELD2":"6601200",
+    "FIELD3":"清水區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"313",
+    "FIELD7":"台中市清水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.5854674,24.2377939 ]
+    },
+    "properties": {
+    "FIELD1":"314",
+    "FIELD2":"6601300",
+    "FIELD3":"沙鹿區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"314",
+    "FIELD7":"台中市沙鹿區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.5394232,24.2479737 ]
+    },
+    "properties": {
+    "FIELD1":"367",
+    "FIELD2":"6601400",
+    "FIELD3":"梧棲區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"367",
+    "FIELD7":"台中市梧棲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.7223705,24.3088765 ]
+    },
+    "properties": {
+    "FIELD1":"315",
+    "FIELD2":"6601500",
+    "FIELD3":"后里區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"315",
+    "FIELD7":"台中市后里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6830982,24.2466151 ]
+    },
+    "properties": {
+    "FIELD1":"316",
+    "FIELD2":"6601600",
+    "FIELD3":"神岡區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"316",
+    "FIELD7":"台中市神岡區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.7062535,24.2163612 ]
+    },
+    "properties": {
+    "FIELD1":"317",
+    "FIELD2":"6601700",
+    "FIELD3":"潭子區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"317",
+    "FIELD7":"台中市潭子區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6545022,24.2225023 ]
+    },
+    "properties": {
+    "FIELD1":"318",
+    "FIELD2":"6601800",
+    "FIELD3":"大雅區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"318",
+    "FIELD7":"台中市大雅區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.8154358,24.1867194 ]
+    },
+    "properties": {
+    "FIELD1":"319",
+    "FIELD2":"6601900",
+    "FIELD3":"新社區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"319",
+    "FIELD7":"台中市新社區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.7771553,24.2742426 ]
+    },
+    "properties": {
+    "FIELD1":"320",
+    "FIELD2":"6602000",
+    "FIELD3":"石岡區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"320",
+    "FIELD7":"台中市石岡區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6533224,24.3317733 ]
+    },
+    "properties": {
+    "FIELD1":"321",
+    "FIELD2":"6602100",
+    "FIELD3":"外埔區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"321",
+    "FIELD7":"台中市外埔區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.5912217,24.3702355 ]
+    },
+    "properties": {
+    "FIELD1":"322",
+    "FIELD2":"6602200",
+    "FIELD3":"大安區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"322",
+    "FIELD7":"台中市大安區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6380936,24.107787 ]
+    },
+    "properties": {
+    "FIELD1":"323",
+    "FIELD2":"6602300",
+    "FIELD3":"烏日區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"323",
+    "FIELD7":"台中市烏日區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.5624474,24.1358732 ]
+    },
+    "properties": {
+    "FIELD1":"324",
+    "FIELD2":"6602400",
+    "FIELD3":"大肚區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"324",
+    "FIELD7":"台中市大肚區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.5163949,24.2102428 ]
+    },
+    "properties": {
+    "FIELD1":"325",
+    "FIELD2":"6602500",
+    "FIELD3":"龍井區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"325",
+    "FIELD7":"台中市龍井區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.734995,24.0442951 ]
+    },
+    "properties": {
+    "FIELD1":"326",
+    "FIELD2":"6602600",
+    "FIELD3":"霧峰區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"326",
+    "FIELD7":"台中市霧峰區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.7170701,24.1240719 ]
+    },
+    "properties": {
+    "FIELD1":"327",
+    "FIELD2":"6602700",
+    "FIELD3":"太平區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"327",
+    "FIELD7":"台中市太平區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.6812114,24.1046899 ]
+    },
+    "properties": {
+    "FIELD1":"328",
+    "FIELD2":"6602800",
+    "FIELD3":"大里區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"328",
+    "FIELD7":"台中市大里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3084088,24.3207261 ]
+    },
+    "properties": {
+    "FIELD1":"329",
+    "FIELD2":"6602900",
+    "FIELD3":"和平區",
+    "FIELD4":"66",
+    "FIELD5":"台中市",
+    "FIELD6":"329",
+    "FIELD7":"台中市和平區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3089541,23.3119567 ]
+    },
+    "properties": {
+    "FIELD1":"330",
+    "FIELD2":"6700100",
+    "FIELD3":"新營區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"330",
+    "FIELD7":"台南市新營區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2397336,23.2622306 ]
+    },
+    "properties": {
+    "FIELD1":"331",
+    "FIELD2":"6700200",
+    "FIELD3":"鹽水區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"331",
+    "FIELD7":"台南市鹽水區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4588059,23.3336369 ]
+    },
+    "properties": {
+    "FIELD1":"332",
+    "FIELD2":"6700300",
+    "FIELD3":"白河區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"332",
+    "FIELD7":"台南市白河區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3550808,23.2806957 ]
+    },
+    "properties": {
+    "FIELD1":"333",
+    "FIELD2":"6700400",
+    "FIELD3":"柳營區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"333",
+    "FIELD7":"台南市柳營區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3550808,23.3665101 ]
+    },
+    "properties": {
+    "FIELD1":"334",
+    "FIELD2":"6700500",
+    "FIELD3":"後壁區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"334",
+    "FIELD7":"台南市後壁區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.447285,23.2825014 ]
+    },
+    "properties": {
+    "FIELD1":"335",
+    "FIELD2":"6700600",
+    "FIELD3":"東山區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"335",
+    "FIELD7":"台南市東山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2397336,23.1763401 ]
+    },
+    "properties": {
+    "FIELD1":"336",
+    "FIELD2":"6700700",
+    "FIELD3":"麻豆區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"336",
+    "FIELD7":"台南市麻豆區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2685799,23.2292915 ]
+    },
+    "properties": {
+    "FIELD1":"337",
+    "FIELD2":"6700800",
+    "FIELD3":"下營區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"337",
+    "FIELD7":"台南市下營區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3320195,23.2426813 ]
+    },
+    "properties": {
+    "FIELD1":"338",
+    "FIELD2":"6700900",
+    "FIELD3":"六甲區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"338",
+    "FIELD7":"台南市六甲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3550808,23.1948768 ]
+    },
+    "properties": {
+    "FIELD1":"339",
+    "FIELD2":"6701000",
+    "FIELD3":"官田區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"339",
+    "FIELD7":"台南市官田區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4011911,23.1421962 ]
+    },
+    "properties": {
+    "FIELD1":"340",
+    "FIELD2":"6701100",
+    "FIELD3":"大內區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"340",
+    "FIELD7":"台南市大內區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.1704766,23.1694465 ]
+    },
+    "properties": {
+    "FIELD1":"341",
+    "FIELD2":"6701200",
+    "FIELD3":"佳里區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"341",
+    "FIELD7":"台南市佳里區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.1704766,23.2553798 ]
+    },
+    "properties": {
+    "FIELD1":"342",
+    "FIELD2":"6701300",
+    "FIELD3":"學甲區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"342",
+    "FIELD7":"台南市學甲區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.1993381,23.1257853 ]
+    },
+    "properties": {
+    "FIELD1":"343",
+    "FIELD2":"6701400",
+    "FIELD3":"西港區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"343",
+    "FIELD7":"台南市西港區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.1011836,23.1195166 ]
+    },
+    "properties": {
+    "FIELD1":"344",
+    "FIELD2":"6701500",
+    "FIELD3":"七股區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"344",
+    "FIELD7":"台南市七股區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.137211,23.216876 ]
+    },
+    "properties": {
+    "FIELD1":"345",
+    "FIELD2":"6701600",
+    "FIELD3":"將軍區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"345",
+    "FIELD7":"台南市將軍區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.1242853,23.2866026 ]
+    },
+    "properties": {
+    "FIELD1":"346",
+    "FIELD2":"6701700",
+    "FIELD3":"北門區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"346",
+    "FIELD7":"台南市北門區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3320195,23.0280873 ]
+    },
+    "properties": {
+    "FIELD1":"347",
+    "FIELD2":"6701800",
+    "FIELD3":"新化區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"347",
+    "FIELD7":"台南市新化區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3089541,23.1402613 ]
+    },
+    "properties": {
+    "FIELD1":"348",
+    "FIELD2":"6701900",
+    "FIELD3":"善化區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"348",
+    "FIELD7":"台南市善化區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2858846,23.0807324 ]
+    },
+    "properties": {
+    "FIELD1":"349",
+    "FIELD2":"6702000",
+    "FIELD3":"新市區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"349",
+    "FIELD7":"台南市新市區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2166519,23.095298 ]
+    },
+    "properties": {
+    "FIELD1":"350",
+    "FIELD2":"6702100",
+    "FIELD3":"安定區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"350",
+    "FIELD7":"台南市安定區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3723741,23.0893067 ]
+    },
+    "properties": {
+    "FIELD1":"351",
+    "FIELD2":"6702200",
+    "FIELD3":"山上區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"351",
+    "FIELD7":"台南市山上區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4703258,23.1060822 ]
+    },
+    "properties": {
+    "FIELD1":"352",
+    "FIELD2":"6702300",
+    "FIELD3":"玉井區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"352",
+    "FIELD7":"台南市玉井區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.5163949,23.1820152 ]
+    },
+    "properties": {
+    "FIELD1":"353",
+    "FIELD2":"6702400",
+    "FIELD3":"楠西區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"353",
+    "FIELD7":"台南市楠西區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.5624474,23.1079133 ]
+    },
+    "properties": {
+    "FIELD1":"354",
+    "FIELD2":"6702500",
+    "FIELD3":"南化區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"354",
+    "FIELD7":"台南市南化區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.4242401,23.0300785 ]
+    },
+    "properties": {
+    "FIELD1":"355",
+    "FIELD2":"6702600",
+    "FIELD3":"左鎮區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"355",
+    "FIELD7":"台南市左鎮區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2397336,22.9401228 ]
+    },
+    "properties": {
+    "FIELD1":"356",
+    "FIELD2":"6702700",
+    "FIELD3":"仁德區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"356",
+    "FIELD7":"台南市仁德區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2858846,22.9519268 ]
+    },
+    "properties": {
+    "FIELD1":"357",
+    "FIELD2":"6702800",
+    "FIELD3":"歸仁區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"357",
+    "FIELD7":"台南市歸仁區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.3320195,22.9637053 ]
+    },
+    "properties": {
+    "FIELD1":"358",
+    "FIELD2":"6702900",
+    "FIELD3":"關廟區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"358",
+    "FIELD7":"台南市關廟區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.378138,22.9540045 ]
+    },
+    "properties": {
+    "FIELD1":"359",
+    "FIELD2":"6703000",
+    "FIELD3":"龍崎區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"359",
+    "FIELD7":"台南市龍崎區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2628111,23.0211779 ]
+    },
+    "properties": {
+    "FIELD1":"360",
+    "FIELD2":"6703100",
+    "FIELD3":"永康區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"360",
+    "FIELD7":"台南市永康區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2224227,22.98133 ]
+    },
+    "properties": {
+    "FIELD1":"361",
+    "FIELD2":"6703200",
+    "FIELD3":"東區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"361",
+    "FIELD7":"台南市東區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.1877943,22.9563522 ]
+    },
+    "properties": {
+    "FIELD1":"362",
+    "FIELD2":"6703300",
+    "FIELD3":"南區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"362",
+    "FIELD7":"台南市南區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.2079953,23.008515 ]
+    },
+    "properties": {
+    "FIELD1":"363",
+    "FIELD2":"6703400",
+    "FIELD3":"北區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"363",
+    "FIELD7":"台南市北區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.1358346,23.0585336 ]
+    },
+    "properties": {
+    "FIELD1":"364",
+    "FIELD2":"6703500",
+    "FIELD3":"安南區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"364",
+    "FIELD7":"台南市安南區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.1647036,22.9934043 ]
+    },
+    "properties": {
+    "FIELD1":"365",
+    "FIELD2":"6703600",
+    "FIELD3":"安平區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"365",
+    "FIELD7":"台南市安平區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.1964522,22.9948212 ]
+    },
+    "properties": {
+    "FIELD1":"366",
+    "FIELD2":"6703700",
+    "FIELD3":"中西區",
+    "FIELD4":"67",
+    "FIELD5":"台南市",
+    "FIELD6":"366",
+    "FIELD7":"台南市中西區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.2969674,24.9934099 ]
+    },
+    "properties": {
+    "FIELD1":"23",
+    "FIELD2":"6800100",
+    "FIELD3":"桃園區",
+    "FIELD4":"68",
+    "FIELD5":"桃園市",
+    "FIELD6":"23",
+    "FIELD7":"桃園市桃園區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.2053963,24.9721514 ]
+    },
+    "properties": {
+    "FIELD1":"24",
+    "FIELD2":"6800200",
+    "FIELD3":"中壢區",
+    "FIELD4":"68",
+    "FIELD5":"桃園市",
+    "FIELD6":"24",
+    "FIELD7":"桃園市中壢區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.2969674,24.8658422 ]
+    },
+    "properties": {
+    "FIELD1":"25",
+    "FIELD2":"6800300",
+    "FIELD3":"大溪區",
+    "FIELD4":"68",
+    "FIELD5":"桃園市",
+    "FIELD6":"25",
+    "FIELD7":"桃園市大溪區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.1366715,24.9242108 ]
+    },
+    "properties": {
+    "FIELD1":"26",
+    "FIELD2":"6800400",
+    "FIELD3":"楊梅區",
+    "FIELD4":"68",
+    "FIELD5":"桃園市",
+    "FIELD6":"26",
+    "FIELD7":"桃園市楊梅區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.2969674,25.0784359 ]
+    },
+    "properties": {
+    "FIELD1":"27",
+    "FIELD2":"6800500",
+    "FIELD3":"蘆竹區",
+    "FIELD4":"68",
+    "FIELD5":"桃園市",
+    "FIELD6":"27",
+    "FIELD7":"桃園市蘆竹區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.193945,25.0492632 ]
+    },
+    "properties": {
+    "FIELD1":"28",
+    "FIELD2":"6800600",
+    "FIELD3":"大園區",
+    "FIELD4":"68",
+    "FIELD5":"桃園市",
+    "FIELD6":"28",
+    "FIELD7":"桃園市大園區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3655989,25.0199092 ]
+    },
+    "properties": {
+    "FIELD1":"29",
+    "FIELD2":"6800700",
+    "FIELD3":"龜山區",
+    "FIELD4":"68",
+    "FIELD5":"桃園市",
+    "FIELD6":"29",
+    "FIELD7":"桃園市龜山區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.2912463,24.9469059 ]
+    },
+    "properties": {
+    "FIELD1":"30",
+    "FIELD2":"6800800",
+    "FIELD3":"八德區",
+    "FIELD4":"68",
+    "FIELD5":"桃園市",
+    "FIELD6":"30",
+    "FIELD7":"桃園市八德區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.2053963,24.8444927 ]
+    },
+    "properties": {
+    "FIELD1":"31",
+    "FIELD2":"6800900",
+    "FIELD3":"龍潭區",
+    "FIELD4":"68",
+    "FIELD5":"桃園市",
+    "FIELD6":"31",
+    "FIELD7":"桃園市龍潭區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.2053963,24.9296022 ]
+    },
+    "properties": {
+    "FIELD1":"32",
+    "FIELD2":"6801000",
+    "FIELD3":"平鎮區",
+    "FIELD4":"68",
+    "FIELD5":"桃園市",
+    "FIELD6":"32",
+    "FIELD7":"桃園市平鎮區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.067907,24.9826597 ]
+    },
+    "properties": {
+    "FIELD1":"33",
+    "FIELD2":"6801100",
+    "FIELD3":"新屋區",
+    "FIELD4":"68",
+    "FIELD5":"桃園市",
+    "FIELD6":"33",
+    "FIELD7":"桃園市新屋區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.1137544,25.0359365 ]
+    },
+    "properties": {
+    "FIELD1":"34",
+    "FIELD2":"6801200",
+    "FIELD3":"觀音區",
+    "FIELD4":"68",
+    "FIELD5":"桃園市",
+    "FIELD6":"34",
+    "FIELD7":"桃園市觀音區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 121.3770336,24.709089 ]
+    },
+    "properties": {
+    "FIELD1":"35",
+    "FIELD2":"6801300",
+    "FIELD3":"復興區",
+    "FIELD4":"68",
+    "FIELD5":"桃園市",
+    "FIELD6":"35",
+    "FIELD7":"桃園市復興區"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "FIELD1":"OBJECTID",
+    "FIELD2":"TOWN_ID",
+    "FIELD3":"TOWN_NAME",
+    "FIELD4":"T_UID",
+    "FIELD5":"COUNTY_NAME",
+    "FIELD6":"T_UID",
+    "FIELD7":"ALL"
+    }
+  }
+]
+}
